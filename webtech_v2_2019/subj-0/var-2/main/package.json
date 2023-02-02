@@ -1,0 +1,25 @@
+{
+  "name": "t1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register tests/*.js --exit",
+    "dev": "nodemon --exec babel-node --presets babel-preset-env ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "chai-json-schema": "^1.5.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4"
+  }
+}

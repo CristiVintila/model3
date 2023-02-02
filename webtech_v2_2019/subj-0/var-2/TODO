@@ -1,0 +1,13 @@
+RO:
+
+1) Realizează fisierul JSON din directorul public confrom schemei descrise în fisierul ./test/test.js - 2p
+2) Adaugă un fisier index.html care citeste fisierul JSON printr-un request asincron si afiseaza continutul lui intr-un div - 3p
+
+Puteți rula testele cu "npm test" în directorul main. Partea de HTML se testeaza manual.
+
+EN:
+
+1) Create the JSON file from the public directory according to the schema described in the file ./test/test.js - 2p
+2) Add a new file index.html that reads the JSON file with an asynchronous request and displays the content in a div - 3p
+
+You can run the tests using "npm test". The HTML part is tested manually.
